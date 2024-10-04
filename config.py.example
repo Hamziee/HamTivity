@@ -1,0 +1,9 @@
+# LAST FM USERNAME
+username = "HamzieRL"
+
+# Discord Config
+clientid = 1291800023666790472
+
+# LastFM Config
+API_Key = ""
+API_Secret = ""
