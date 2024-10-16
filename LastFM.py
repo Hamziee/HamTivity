@@ -7,7 +7,7 @@ import DiscordRPC
 import config
 
 def logFormat():
-    return f"{time.strftime("[%H:%M:%S - %d/%m/%Y]")} | {scriptLastFM} {versionLastFM}"
+    return f"{time.strftime('[%H:%M:%S - %d/%m/%Y]')} | {scriptLastFM} {versionLastFM}"
 
 network = pylast.LastFMNetwork(api_key=config.API_Key, api_secret=config.API_Secret)
 

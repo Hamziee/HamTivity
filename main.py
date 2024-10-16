@@ -1,5 +1,5 @@
 scriptMain = "Main"
-versionMain = "v0.2.1"
+versionMain = "v0.2.2"
 
 import threading
 from LastFM import loop
@@ -8,7 +8,7 @@ import config
 
 if __name__ == "__main__":
     def logFormat():
-        return f"{time.strftime("[%H:%M:%S - %d/%m/%Y]")} | {scriptMain} {versionMain}"
+        return f"{time.strftime('[%H:%M:%S - %d/%m/%Y]')} | {scriptMain} {versionMain}"
 
     if config.activityMethod.lower() == "lastfm":
         print(f"{logFormat()} Using LastFM for activity data.")

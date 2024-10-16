@@ -6,7 +6,7 @@ import time
 import config
 
 def logFormat():
-    return f"{time.strftime("[%H:%M:%S - %d/%m/%Y]")} | {scriptDiscordRPC} {versionDiscordRPC}"
+    return f"{time.strftime('[%H:%M:%S - %d/%m/%Y]')} | {scriptDiscordRPC} {versionDiscordRPC}"
 
 last_author = None
 last_song = None
